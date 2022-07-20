@@ -1,5 +1,5 @@
 ## [Titanic - Machine Learning from Disaster](https://www.kaggle.com/competitions/titanic)
-> Create a model that predicts which passengers survived the Titanic shipwreck.
+> Create a model that predicts which passengers survived the Titanic shipwreck
 
 ### Jupyter Notebook Versions
 
