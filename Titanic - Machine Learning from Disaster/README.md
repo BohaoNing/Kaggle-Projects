@@ -4,7 +4,7 @@
 ### Jupyter Notebook Versions
 
 | Notebook Name | Feature Engineering | Model |
-|         :---          |     :----    |     :----    |
+|         :---:          |     :----:    |     :----:    |
 | getting-started-with-titanic | None  | Random Forest Classifier |
 | titanic-solution-2           | Basic | Linear SVC |
 | titanic-solution-3           | Basic | Random Forest Classifier |
@@ -33,20 +33,20 @@ Advanced feature engineering was applied in **titanic-solution-5**:
 ### Machine Learning Model
 Multiple models tested in **titanic-solution-5**, the accuracy scores on test data (test_size = 20%) are:
 
-| Model | Score |
-| :---- | :---- |
-| GBM  | 87.15 |
-| Catboost  | 87.15 |
-| Logistic Regression  | 85.47 |
-| Random Forest  | 84.92 |
-| Decision Tree  | 84.36 |
-| LightGBM  | 84.36 |
-| HistBoost  | 84.36 |
-| XGBoost  | 83.80 |
+| Number | Model | Score |
+| :----: | :----: | :----: |
+| 1 | GBM  | 87.15 |
+| 2 | Catboost  | 87.15 |
+| 3 | Logistic Regression  | 85.47 |
+| 4 | Random Forest  | 84.92 |
+| 5 | Decision Tree  | 84.36 |
+| 6 | LightGBM  | 84.36 |
+| 7 | HistBoost  | 84.36 |
+| 8 | XGBoost  | 83.80 |
 
 The top 4 models were chosen to perform Grid Search for parameter tuning, and retrained on the complete dataset
 
 ### Performance
 - Best model with tuned parameter: **Random Forest Classifier**
 - Best accuracy on the evaluation dataset: **0.79425**
-- Best ranking on the leader board: **top 5%**
+- Best rank on the leader board: **top 5%**
