@@ -37,9 +37,9 @@ Multiple models tested in **titanic-solution-5**, the accuracy scores on test da
 | :----: | :----: | :----: |
 | 1 | GBM  | 87.15 |
 | 2 | Catboost  | 87.15 |
-| 3 | Logistic Regression  | 85.47 |
-| 4 | Random Forest  | 84.92 |
-| 5 | Decision Tree  | 84.36 |
+| 3 | LogisticRegression  | 85.47 |
+| 4 | RandomForest  | 84.92 |
+| 5 | DecisionTree  | 84.36 |
 | 6 | LightGBM  | 84.36 |
 | 7 | HistBoost  | 84.36 |
 | 8 | XGBoost  | 83.80 |
