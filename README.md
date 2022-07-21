@@ -1,4 +1,5 @@
 ### This repository archives some Kaggle Projects that I've worked on:
 
 1. [Titanic - Machine Learning from Disaster](https://www.kaggle.com/competitions/titanic)\
-  Create a model that predicts which passengers survived the Titanic shipwreck
+  Create a model that predicts which passengers survived the Titanic shipwreck\
+  Best rank on the leader board: **top 5%**
