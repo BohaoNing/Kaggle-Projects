@@ -5,8 +5,8 @@
 
 | Notebook Name            |   Model   |
 |         :---:            |   :----:  |
-| HousePrices - Solution 1 | ElasticNet + XGBoost |
-| HousePrices - Solution 2 | Blended Model with Stacking Regressor |
+| HousePrices - Solution 1 | ElasticNet + XGBRegressor |
+| HousePrices - Solution 2 | Blended Model with StackingCVRegressor |
 
 ### Input Data
 - Training set (train.csv)
@@ -22,17 +22,18 @@
 
 ### Machine Learning Model
 Multiple models tested in **HousePrices - Solution 1** and **HousePrices - Solution 2**:
-- Elastic Net
-- XGBoost Regressor
-- Elastic Net + XGBoost Regressor
-- Light Gradient Boosting Regressor
-- Ridge Regressor
-- Support Vector Regressor
-- Gradient Boosting Regressor
-- Random Forest Regressor
-- Stacking CV Regressor optimized using XGBoost
+- ElasticNet
+- XGBoostRegressor
+- ElasticNet + XGBoostRegressor
+- LGBMRegressor
+- XGBRegressor
+- RidgeCV
+- SVR
+- GradientBoostingRegressor
+- RandomForestRegressor
+- StackingCVRegressor optimized by XGBRegressor
 
 ### Performance
-- Best model with tuned parameter: **Blended Model with Stacking Regressor**
+- Best model with tuned parameter: **Blended Model with StackingCVRegressor**
 - Best score (RMSE of log(y-y_pred)) on the evaluation dataset: **0.11949**
 - Best rank on the leader board: **top 5%**
