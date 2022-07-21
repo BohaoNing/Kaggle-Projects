@@ -5,9 +5,9 @@
 
 | Notebook Name | Feature Engineering | Model |
 |         :---:          |     :----:    |     :----:    |
-| getting-started-with-titanic | None  | Random Forest Classifier |
-| titanic-solution-2           | Basic | Linear SVC |
-| titanic-solution-3           | Basic | Random Forest Classifier |
+| getting-started-with-titanic | None  | RandomForestClassifier |
+| titanic-solution-2           | Basic | LinearSVC |
+| titanic-solution-3           | Basic | RandomForestClassifier |
 | titanic-solution-4           | More  | Multiple Classifier |
 | titanic-solution-5           | Advanced | Multiple Classifier |
 
@@ -35,14 +35,14 @@ Multiple models tested in **titanic-solution-5**, the accuracy scores on test da
 
 | Number | Model | Score |
 | :----: | :----: | :----: |
-| 1 | GBM  | 87.15 |
-| 2 | Catboost  | 87.15 |
+| 1 | GradientBoostingClassifier  | 87.15 |
+| 2 | CatBoostClassifier  | 87.15 |
 | 3 | LogisticRegression  | 85.47 |
-| 4 | RandomForest  | 84.92 |
-| 5 | DecisionTree  | 84.36 |
-| 6 | LightGBM  | 84.36 |
-| 7 | HistBoost  | 84.36 |
-| 8 | XGBoost  | 83.80 |
+| 4 | RandomForestClassifier  | 84.92 |
+| 5 | DecisionTreeClassifier  | 84.36 |
+| 6 | LGBMClassifier  | 84.36 |
+| 7 | HistGradientBoostingClassifier  | 84.36 |
+| 8 | XGBClassifier  | 83.80 |
 
 The top 4 models were chosen to perform Grid Search for parameter tuning, and retrained on the complete dataset
 
