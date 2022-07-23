@@ -35,5 +35,5 @@ Multiple models tested in **HousePrices - Solution 1** and **HousePrices - Solut
 
 ### Performance
 - Best model with tuned parameter: **Blended Model with StackingCVRegressor**
-- Best score (RMSE of log(y-y_pred)) on the evaluation dataset: **0.11949**
+- Best score (RMSE of log(y-y_pred)) on the evaluation dataset: **0.11910**
 - Best rank on the leader board: **top 5%**
