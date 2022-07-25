@@ -8,8 +8,8 @@
 | getting-started-with-titanic | None  | RandomForestClassifier |
 | titanic-solution-2           | Basic | LinearSVC |
 | titanic-solution-3           | Basic | RandomForestClassifier |
-| titanic-solution-4           | More  | Multiple Classifier |
-| titanic-solution-5           | Advanced | Multiple Classifier |
+| titanic-solution-4           | More  | Multiple Classifiers |
+| titanic-solution-5           | Advanced | Multiple Classifiers |
 
 ### Input Data
 - Training set (train.csv)
