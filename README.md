@@ -7,5 +7,5 @@
   Predict sales prices and practice feature engineering, RFs, and gradient boosting\
   Best rank on the leader board: **top 5%**
 3. [Spaceship Titanic](https://www.kaggle.com/competitions/spaceship-titanic)\
-  Predict which passengers are transported to an alternate dimension\
+  Predict which passengers are transported to an alternate dimension
   
