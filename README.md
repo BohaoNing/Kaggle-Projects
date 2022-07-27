@@ -2,6 +2,7 @@
 
 1. [Titanic - Machine Learning from Disaster](https://www.kaggle.com/competitions/titanic)\
   Create a model that predicts which passengers survived the Titanic shipwreck\
+  Best model with tuned parameter: Random Forest Classifier\
   Best rank on the leader board: **top 5%** 
   
 2. [House Prices - Advanced Regression Techniques](https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques)\
