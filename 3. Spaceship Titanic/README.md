@@ -38,4 +38,4 @@ Multiple models tested in all the notebooks:
 ### Performance
 - Best model with tuned parameter: **CatBoostClassifier**
 - Best score (classification accuracy) on the evaluation dataset: **0.80617**
-- Best rank on the leader board: **top 10%**
+- Best rank on the leaderboard: **top 10%**
