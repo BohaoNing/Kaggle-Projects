@@ -48,5 +48,5 @@ The top 4 models were chosen to perform Grid Search for parameter tuning, and re
 
 ### Performance
 - Best model with tuned parameter: **Random Forest Classifier**
-- Best accuracy on the evaluation dataset: **0.79665**
-- Best rank on the leader board: **top 5%**
+- Best score (classification accuracy) on the evaluation dataset: **0.79665**
+- Best rank on the leaderboard: **top 5%**
