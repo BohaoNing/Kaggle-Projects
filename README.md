@@ -14,3 +14,6 @@
   Predict which passengers are transported to an alternate dimension\
   Best model with tuned parameter: **CatBoostClassifier**\
   Best rank on the leaderboard: **top 10%**
+
+4. [Store Sales - Time Series Forecasting](https://www.kaggle.com/competitions/store-sales-time-series-forecasting)
+  Use machine learning to predict grocery sales
