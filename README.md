@@ -16,6 +16,6 @@
   Best rank on the leaderboard: **top 10%**
 
 4. [Store Sales - Time Series Forecasting](https://www.kaggle.com/competitions/store-sales-time-series-forecasting)\
-  Use machine learning to predict grocery sales
+  Use machine learning to predict grocery sales\
   Best model with tuned parameter: **Blended Model with a customized regressor**\
   Best rank on the leaderboard: **top 7%**
