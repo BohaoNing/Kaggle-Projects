@@ -36,7 +36,6 @@ Multiple models tested in all the notebooks:
 - StackingClassifier with CatBoostClassifier or RandomForestClassifier
 
 ### Performance
-- Best model with tuned parameter: **Blended Model with a customized regressor**\
+- Best model with tuned parameter: **Blended Model with a customized regressor**
 - Best score (Root Mean Squared Logarithmic Error) on the evaluation dataset: **0.40419**
 - Best rank on the leaderboard: **top 7%**
-
