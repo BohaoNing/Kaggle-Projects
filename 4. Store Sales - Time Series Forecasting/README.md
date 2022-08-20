@@ -7,33 +7,31 @@
 |         :---:                  |                     :----:                      |
 | Store Sales - Hyperparamatered Solution |         Final Solution                 |
 | Store Sales - Getting Started with Time Series | Final Solution, Simplified Code |
-| Others                         |                    Version 3                    |
+| Others                         |             Resources and References            |
 
 ### Input Data
-- Training set (train.csv)
-  - Features: passenger information, such as ID, HomePlanet, Age, etc.
-  - Label: whether transported to another dimension (bool)
+- Training set (train.csv)\
+  Comprising time series of features store_nbr, family, and onpromotion as well as the target sales
 - Test set (test.csv)\
-  Same features as in the training set without label (to be predicted)
+  Same features as in the training set without target (to be predicted)
+- Store set (stores.csv)\
+  Store metadata, including city, state, type, and cluster
+- Oil set (oil.csv)\
+  Daily oil price
+- Holiday set (holidays_events.csv)\
+  Holidays and Events, with metadata
 
 ### Feature Engineering
-- Missing values were filled using various strategies
-- Three more features were created in Version 3
-  - Adult: True if Age >= 18, else False
-  - TotalSpend: the sum of all the bill amount onboard
-  - FamilyMember: the count of the same family name
+- Average oil price using a 7-day rolling window
+- 3 lags for oil prices
+- National holidays with some adjustments
+- A "school_season" feature for school fluctuations
+- Deterministic process with order=3 CalendarFourier 
+- Training period was from 2017-04-30 to 2017-08-15 based on sales plots
 
 ### Machine Learning Model
-Multiple models tested in all the notebooks:
-- LogisticRegression
-- DecisionTreeClassifier
-- RandomForestClassifier
-- XGBClassifier
-- GradientBoostingClassifier
-- LGBMClassifier
-- CatBoostClassifier
-- HistGradientBoostingClassifier
-- StackingClassifier with CatBoostClassifier or RandomForestClassifier
+A custom regressor:
+- 
 
 ### Performance
 - Best model with tuned parameter: **Blended Model with a customized regressor**
