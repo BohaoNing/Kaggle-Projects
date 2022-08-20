@@ -30,13 +30,13 @@
 - Training period was from 2017-04-30 to 2017-08-15 based on sales plots
 
 ### Machine Learning Model
-A custom regressor:
+A customized regressor:
 - For "SCHOOL AND OFFICE SUPPLIES"\
   VotingRegressor averaging ExtraTreesRegressor and RandomForestRegressor
 - For other products\
   VotingRegressor averaging Ridge(alpha=0.75) and SVR
 
 ### Performance
-- Best model with tuned parameter: **Customized regressor**
+- Best model with tuned parameter: **Customized Regressor**
 - Best score (Root Mean Squared Logarithmic Error) on the evaluation dataset: **0.40419**
 - Best rank on the leaderboard: **top 7%**
