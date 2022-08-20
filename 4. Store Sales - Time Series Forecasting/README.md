@@ -31,9 +31,12 @@
 
 ### Machine Learning Model
 A custom regressor:
-- 
+- For "SCHOOL AND OFFICE SUPPLIES"\
+  VotingRegressor averaging ExtraTreesRegressor and RandomForestRegressor
+- For other products\
+  VotingRegressor averaging Ridge(alpha=0.75) and SVR
 
 ### Performance
-- Best model with tuned parameter: **Blended Model with a customized regressor**
+- Best model with tuned parameter: **Customized regressor**
 - Best score (Root Mean Squared Logarithmic Error) on the evaluation dataset: **0.40419**
 - Best rank on the leaderboard: **top 7%**
