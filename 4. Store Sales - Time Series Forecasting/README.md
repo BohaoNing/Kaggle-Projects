@@ -1,13 +1,13 @@
-## [Spaceship Titanic](https://www.kaggle.com/competitions/spaceship-titanic)
->  Predict which passengers are transported to an alternate dimension
+## [Store Sales - Time Series Forecasting](https://www.kaggle.com/competitions/store-sales-time-series-forecasting)
+>  Use machine learning to predict grocery sales
 
 ### Jupyter Notebook Versions
  
-| Notebook Name                  |   Feature Engineering   |         Model        |
-|         :---:                  |          :----:         |        :----:        |
-| Spaceship Titanic - Solution 1 |         Version 1       | Multiple Classifiers |
-| Spaceship Titanic - Solution 2 |         Version 2       | Multiple Classifiers |
-| Spaceship Titanic - Solution 3 |         Version 3       | Multiple Classifiers |
+| Notebook Name                  |                    Versions                     |
+|         :---:                  |                     :----:                      |
+| Store Sales - Hyperparamatered Solution |         Final Solution                 |
+| Store Sales - Getting Started with Time Series | Final Solution, Simplified Code |
+| Others                         |                    Version 3                    |
 
 ### Input Data
 - Training set (train.csv)
