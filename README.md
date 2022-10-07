@@ -21,3 +21,7 @@
   Use machine learning to predict grocery sales\
   Best model with tuned parameter: **Customized Regressor**\
   Best rank on the leaderboard: **top 7%**
+
+## Exploratory Data Analysis (EDA)
+
+1. [Netflix Movies and TV Shows](https://www.kaggle.com/datasets/shivamb/netflix-shows/code?datasetId=434238&sortBy=voteCount)
