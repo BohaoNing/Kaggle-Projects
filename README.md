@@ -1,5 +1,8 @@
 ### This repository archives some of the Kaggle Projects that I've worked on
 
+## Exploratory Data Analysis (EDA)
+
+
 ## Getting Started Projects
 
 1. [Titanic - Machine Learning from Disaster](https://www.kaggle.com/competitions/titanic)
@@ -21,7 +24,3 @@
   Use machine learning to predict grocery sales\
   Best model with tuned parameter: **Customized Regressor**\
   Best rank on the leaderboard: **top 7%**
-
-## Exploratory Data Analysis (EDA)
-
-
