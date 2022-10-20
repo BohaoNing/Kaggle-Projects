@@ -2,7 +2,7 @@
 
 ## Exploratory Data Analysis (EDA)
 
-### Work in progress
+#### (Work in progress)
 
 ## Getting Started Projects
 
